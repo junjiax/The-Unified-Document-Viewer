@@ -4,10 +4,10 @@ using Chap10.Dtos.ServiceDTO;
 
 public class UnifiedDocumentDto
 {
-    public int? Vin { get; set; }
+    public int? VIN { get; set; }
 
-    public SaleDto? Sale { get; set; }
+    public SaleDto? SaleAPI { get; set; }
 
-    public ServiceDto? Service { get; set; }
+    public ServiceDto? ServiceAPI { get; set; }
 
 }
